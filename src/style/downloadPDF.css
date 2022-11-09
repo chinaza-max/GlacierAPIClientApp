@@ -1,0 +1,18 @@
+.downloadPDF-body{
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 90px;
+    
+}
+.downloadPDF-body p{
+    text-align: center;
+}
+@media(max-width:1024px){
+    .downloadPDF-body{
+        width: 95vw;
+        height: 100vh;
+        margin: 0 auto;
+    
+    }
+}

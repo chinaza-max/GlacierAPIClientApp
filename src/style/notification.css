@@ -1,0 +1,124 @@
+.notificationContainer{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.notificationContainerSub{
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.notificationContainerSub .notificationContainerSub__add{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+}
+.notificationContainerSub .notificationContainerSub__add .Link{
+    display: block;
+}
+.notificationContainerSub .notificationContainerSub__empty{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    margin-top: 30%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.notificationNavContainer{
+    position: fixed;
+    width:inherit;
+    display: flex;
+    flex-direction: column;
+    
+}
+.notificationNavContainer div{
+  padding: 10px;
+  width: 100%;
+}
+
+.notificationTag h4{
+    font-weight: 700;
+}
+.notificationBody{
+    width: 100%;
+    margin-top: 120px;
+    height: auto;
+    padding: 12px;
+}
+.notificationBodyContent{
+    padding-left: 10px;
+    border-radius: 14px;
+    height: fit-content;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6),
+    -9px -9px 16px rgba(255,255,255,0.5);
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+}
+.notificationBodyContent:hover{
+    box-shadow: inset 9px 9px 16px rgb(163,177,198,0.6),
+    inset -9px -9px 16px rgba(255,255,255,0.5);
+}
+.notificationBodyContent h5{
+    line-height: 12px;
+    font-size: 17px;
+    color: #313131;
+}
+.notificationBodyContent h4{
+    line-height: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.notificationTime{
+    padding-top: 10px;
+    color: #d0d0d0;
+    display: flex;
+    flex-direction: row;
+}
+.notificationTime div{
+    width: 100%;
+}
+.dateposted{
+    text-align: right;
+    padding-right: 20px;
+}
+.notificationBodyContentRequest{
+    color: rgb(134 133 133);
+}
+.homeTag{
+    color: rgb(83, 81, 81);
+    font-weight: 500;
+}
+.Home:hover{
+    cursor: pointer;
+}
+.Home{
+    width: 50px;
+}
+.view{
+    color: rgb(40, 40, 41);
+}
+.view:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+@media(max-width:1024px){
+    .notificationContainerSub{
+        width: 99%;
+        height: 100%;
+    }
+    .notificationContainerSub .notificationContainerSub__add{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+    }
+ 
+}

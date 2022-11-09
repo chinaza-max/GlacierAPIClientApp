@@ -1,0 +1,30 @@
+.section1{
+    margin-top: 80px;
+}
+.h3Categories__link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+.h3Categories__link:hover{
+    text-decoration: none; 
+    color: white;
+}
+
+.h3Categories a{
+    display: inline-block;  
+    color: white;
+}
+
+.h3Categories a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+@media(max-width:1024px){
+    .section1{
+        margin-top: 10px;
+    }
+}

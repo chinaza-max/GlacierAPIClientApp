@@ -1,0 +1,56 @@
+.verifyContainer{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40vh;
+    background-image: url("../imgs/verifiedimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.verifyContainer form{
+    width: 70%;
+    height: 100px; 
+    margin: 0 auto;
+    text-align: center;
+}
+.verifyContainer form input:focus{
+   outline: none;
+}
+.verifyContainer form input:nth-child(1){
+    border: none;
+    border-bottom: 2px solid black;
+    width: 250px;
+    background-color: transparent;
+}
+.verifyContainer form input:nth-child(2){
+    border: 3px solid black;
+    width: 140px;
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.verifyContainer form input:nth-child(2):hover{
+    border: 3px solid blue;
+    
+}
+.verifyContainer form input:nth-child(2):active{
+    border: 3px solid red;
+    
+}
+.verifyContainer form .verifyContainer__back{
+    margin-top: 20px;
+}
+
+
+@media (max-width:500px) {
+    .verifyContainer form{
+        width: 100%;
+    }
+    .verifyContainer form input:nth-child(1){
+       text-align: center;
+     }
+    .verifyContainer form input:nth-child(2){
+       margin-top: 25px;
+       width: 100px;
+       padding: 5px;
+    }
+}

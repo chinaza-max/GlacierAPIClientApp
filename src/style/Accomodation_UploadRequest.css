@@ -1,0 +1,114 @@
+.request_container{
+    width: 100vw;
+    padding-top: 50px;
+}
+.request_container nav{
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.request_container nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    height: 100%;
+    color: white;
+}
+.request_container nav ul li{
+    padding-top: 5px;
+    width: 100%;
+}
+.request_container nav ul li:nth-child(1) ul{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+}
+.request_container nav ul li:nth-child(1) ul li{
+    width: auto;
+    padding-left: 20px;
+}
+.request_container nav ul li:nth-child(1) ul li:nth-child(1){
+    cursor: pointer;
+}
+.request_container nav ul li:nth-child(2){
+   text-align: right;
+   padding-right: 30px;
+ 
+}
+.request_container nav ul li:nth-child(2) input{
+   cursor: pointer;
+   font-size: 20px;
+   background-color: transparent;
+   color: white;
+   border: none;
+ }
+.request_container nav ul li:nth-child(2) input:focus{
+    outline: none;
+    border: none;
+}
+.request_container nav ul li:nth-child(2) input:hover{
+    color: #007bff;
+}
+.request_container__body{
+    height: 300px;
+}
+.request_container__body__center{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}   
+.request_container__body__center__container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.request_container__body__center__container #select{
+    border: 2px solid #007bff;
+}
+.request_container__body__center__container #select:focus{
+    outline: none;
+}
+.request_container__body_Description{
+   
+    margin-top: 50px;
+}
+.request_container__body_Description__1{
+    text-align: center;
+}
+
+.request_container__body_Description__1__textAreaContainer{
+    text-align: center;
+}
+.request_container__body_Description__1__textAreaContainer textarea{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #007bff;
+} 
+.request_container__body_Description__1__textAreaContainer textarea:focus{
+    outline: none;
+} 
+@media (max-width:800px) {
+    .request_container nav ul li:nth-child(1) ul{
+        width: 100%;
+    }
+    .request_container nav ul li:nth-child(1) ul li:nth-child(1){
+        padding-left: 10px;
+    }
+    .request_container nav ul li:nth-child(1) ul li:nth-child(2){
+        min-width: 155px;
+        padding-left: 0px;
+    }
+    .request_container__body_Description__1__textAreaContainer textarea{
+        width:  100%;
+        height: 180px;
+        border: 2px solid #007bff;
+    } 
+    .request_container__body__center{
+        width: 95%;
+
+    }
+}
