@@ -9,7 +9,7 @@ import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
 import ScrollTop from "../reUse/scrollTop";
 import axios from 'axios'
 
-
+  
 
 function Accomodation(props){
     const[accomodation,setaccomodation]=useState([]);

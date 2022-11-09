@@ -5,7 +5,7 @@ import "../../../style/dashBoardSettings.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import DashboardUI from "./dashBoardUI";
-import axios from "axios";
+import axios from "axios";    
 
 function Dashboard(props){
     const[post,setposts]=useState([])
